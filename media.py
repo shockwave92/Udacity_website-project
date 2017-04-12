@@ -12,6 +12,3 @@ class Movie():
         self.poster_image_url = poster_image
         self.trailer_url = youtube_trailer
         self.release = release_date
-
-    def show_trailer(self):
-        webbrowser.open(self.trailer_url)
